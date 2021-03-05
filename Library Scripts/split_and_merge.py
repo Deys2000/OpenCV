@@ -2,7 +2,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread('Fish.jpeg')
+img = cv.imread('fish.jpeg')
 img = cv.resize(img, (img.shape[1]//3, img.shape[0]//3))
 cv.imshow("FISH", img)
 
